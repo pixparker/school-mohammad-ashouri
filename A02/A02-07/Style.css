@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.box1 {
+  margin: auto 0px;
+  width: 400px;
+  height: 100px;
+  color: red;
+  background-color: chartreuse;
+}
+.box2 {
+  width: 400px;
+  height: 100px;
+  color: rgb(9, 9, 161);
+  background-color: rgb(7, 209, 209);
+}
+.box3 {
+  width: 400px;
+  height: 100px;
+  color: #26c262;
+  background-color: #ffdd00;
+}
+.box4 {
+  width: 400px;
+  height: 100px;
+  color: hsl(300, 76%, 72%);
+  background-color: hsl(248, 53%, 58%);
+}
