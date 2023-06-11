@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(134, 134, 214);
+}
+.box{
+    width: 25vw;
+    height: 45vh;
+    margin: 0 auto;
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+.box p{
+    padding-top: 100px;
+}
