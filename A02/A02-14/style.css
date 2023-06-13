@@ -1,0 +1,20 @@
+
+.bord1{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 400px;
+    height: 500px;
+    border: 9px solid yellow;
+}
+.bord2{
+    border: 16px solid rgb(49, 209, 129);
+}
+.txt{
+    
+    border: 23px solid rgb(115, 131, 223);
+}
+.txt h1{
+    text-align: center;
+}
+
+    
