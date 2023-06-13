@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+.night{
+    height: 100vh;
+    background-image: url(images/night.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head-night{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 24px;
+    background-color:rgb(24, 24, 92);
+    border-radius: 5px;
+   
+}
+.head-night h3{
+    padding-top: 10px;
+}
+.align{
+    padding-top: 250px;
+}
+.txt-night{
+    height: 50px;
+    background-color: rgba(116, 85, 202, .8);
+    background-image: linear-gradient(rgb(151, 23, 202), rgb(38, 38, 223));
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+}
+.bg-sea{
+    height: 100vh;
+    background-image: url(images/sea.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.head-sea{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 24px;
+    background-color:rgb(53, 53, 224);
+    border-radius: 5px;
+}
+.head-sea h3{
+    padding-top: 10px;
+}
+.txt-sea{
+    height: 50px;
+    background-color: rgba(74, 31, 228,.9);
+    background-image: linear-gradient(rgb(81, 23, 218), rgb(18, 122, 14));
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+}
+.bg-waterful{
+    height: 100vh;
+    background-image: url(images/waterfall.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head-waterful{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color:#fff;
+    font-size: 24px;
+    background-color:rgb(63, 196, 23);
+    border-radius: 5px;
+}
+.head-waterful h3{
+    padding-top: 10px;
+}
+.txt-waterful{
+    height: 50px;
+    background-color: rgba(32, 138, 209, 0.8);
+    background-image: linear-gradient(rgb(117, 68, 231), rgb(96, 23, 145));
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+}
