@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 21, 77);
+    background-image: linear-gradient(rgb(20, 7, 27), rgb(195, 195, 224));
+}
+.hd{
+    color: #fff;
+    text-align: center;
+}
+.bg{
+    background-image: url(images/SteveJobs.jpg);
+    background-position: center;  
+    background-repeat: repeat;
+    background-clip: content-box;
+    width: 1200px;
+    height: 200px;
+    margin-left: 200px;
+    text-align: center;
+    color: rgb(199, 43, 191);
+    font-size: 38px;
+  }
+  .bg p{
+    padding-top: 70px;
+  }
+  .bio{
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    padding-left: 490px;
+  }
+  .bio h1{
+    font-size: 42px;
+  }
+    
