@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    padding-top: 20px;
+    height: 100vh;
+    background-image: url(images/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  }
+  .head{
+    font-size: 30px;
+  }
+
+.p2{
+
+   font-size: 20px;
+
+}
+.img{
+   background-image: url(images/daymountain.jpg);
+   width: 350px;
+   height: 350px;
+   background-position: center;
+   background-size: cover;
+   margin-left: 300px;
+   border-radius: 50%;
+
+
+         }
+.img h2{
+    padding-top: 80px;
+    color: #000;
+}
