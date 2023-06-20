@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(168, 152, 152);
+}
+@font-face {
+    font-family:Raleway-Light ;
+    src: url(fonts/Raleway-Light.ttf)
+}
+.head{
+    font-family:"Monoton";
+    font-size: 48px;
+    text-align: center;
+    padding-top: 50px;
+}
+.head h1{
+   margin: 0;
+}
+.parag{
+    font-family: 'Raleway-Light';
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.parag p{
+    margin: 0;
+}
+    
