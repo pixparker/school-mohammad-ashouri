@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+.center{
+    padding-top: 50px;
+}
+.bg{
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sherlock{
+    background-image: url(images/sherlock\ holmes.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    
+}
+.bckdrp{
+    width: 250px;
+    height: 150px;
+    backdrop-filter: blur(5px);
+    margin:0 auto;
+}
+.txt{
+    
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+.txt h2{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.txt :hover{
+    font-family: 'Shadows Into Light', cursive;
+    cursor: pointer;
+    color: #000;
+    
+}
+.icon{
+    margin: 0 auto;
+    width: 250px;
+    height: 20px;
+        text-align: center;
+ }
+ i{
+    padding-left: 15px;
+ }
+
+.italic{
+    font-style: italic;
+    color: rgb(178, 201, 178);
+   
+}
+.button{
+    margin: 0 auto;
+    width: 250px;
+    height: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
