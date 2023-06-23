@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 173, 173);
+       }
+
+.tbl{
+    width: 140px;
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(108, 108, 112);
+    border-radius: 5px;
+    color: aqua;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.home:hover{
+    background-color: #c8ceeb;
+    background-image: linear-gradient(to top, rgb(148, 148, 223), rgb(211, 224, 240));
+    color: #0a0a0a;
+    cursor: pointer;
+}
+.home:active{
+    background: blue;
+    color: beige;
+}
+.set:hover{
+    background-color: #c8ceeb;
+    background-image: linear-gradient(to top, rgb(148, 148, 223), rgb(211, 224, 240));
+    color: #0a0a0a;
+    cursor: pointer;
+}
+.set:active{
+    background: blue;
+    color: beige;
+}  
+.add:hover{
+    background-color: #7787d8;
+    background-image: linear-gradient(to top, rgb(148, 148, 223), rgb(211, 224, 240));
+    color: #0a0a0a;
+    cursor: pointer;
+}
+.add:active{
+    background: blue;
+    color: beige;
+}
+.contact:hover{
+    background-color: #7787d8;
+    background-image: linear-gradient(to top, rgb(148, 148, 223), rgb(211, 224, 240));
+    color: #0a0a0a;
+    cursor: pointer;
+
+}
+.contact:active{
+    background: blue;
+    color: beige;
+}
+
+.txt-home{
+     border-left: 2px solid #0a0a0a;
+     border-bottom: 1px solid #fff;
+       
+}
+.icon-home{
+    border-bottom: 1px solid #fff;
+    width: 5px;
+}
+.txt-set{
+    border-left: 2px solid #0a0a0a;
+    border-bottom: 1px solid #fff;
+        
+}
+.icon-set{
+   border-bottom: 1px solid #fff;
+   width: 5px;
+}
+.txt-add{
+    border-left: 2px solid #0a0a0a;
+    border-bottom: 1px solid #fff;
+   
+      
+}
+.icon-add{
+   border-bottom: 1px solid #fff;
+   width: 5px;
+}
+.txt-contact{
+    border-left: 2px solid #0a0a0a;
+}
