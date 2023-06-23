@@ -1,0 +1,110 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 6, 6);
+    background-image: linear-gradient(rgb(184, 3, 3), rgb(236, 193, 193));
+    }
+  
+.btn{
+        padding-top: 20px;
+        padding-left: 40px;
+}
+.btn-home:hover{
+    background-color: #020f03;
+    background-image: linear-gradient(to bottom, #1E62D0, #f1f3f5);
+    color: #e2deeb;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-home{
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border: 1px solid #680909;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+.btn-company:hover{
+    background-color: cadetblue;
+    background-image: linear-gradient(to bottom, #34ca66, #031610);
+    color: #d0ff00;
+    cursor: pointer;
+
+}
+
+.btn-company{
+    margin-bottom: 20px;
+    background-color: rgb(225, 184, 241);
+    border: 1px solid #40f758;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+
+}
+.btn-news:hover{
+    background-color: aqua;
+    background-image: linear-gradient(to top, #6f9fec, #0a2038);
+    color: rgb(246, 246, 247);
+    cursor: pointer;
+}
+.btn-news{
+    margin-bottom: 20px;
+    background-color: rgb(240, 178, 167);
+    border: 1px solid #faf9f9;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    font-family: 'Life Savers', cursive;
+    padding-top: 5px;
+   
+}
+.btn-img:hover{
+    background: #1E62D0;
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    color: #faf9f9;
+    cursor: pointer;
+}
+.btn-img{
+    margin-bottom: 20px;
+    background-color: rgb(77, 162, 236);
+    border: 1px solid #d0ff00;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'Miltonian Tattoo', cursive;
+}
+.btn-contact:hover{
+    background-color: antiquewhite;
+    color: #680909;
+    cursor: pointer;
+}
+.btn-contact{
+    background-color: rgb(12, 224, 76);
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Amiko', sans-serif;
+}
