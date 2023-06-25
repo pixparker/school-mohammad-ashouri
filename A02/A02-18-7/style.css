@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #7e7f83;
+    background-image: linear-gradient(to right, rgb(187, 188, 190), rgb(45, 42, 54));
+       }
+    .box{
+        margin: 0 auto;
+        margin-top: 100px;
+        border: 1px solid #fff;
+        width: 250px;
+        height: 400px;
+
+    }
+    .title{
+        color: rgb(128, 183, 231);
+        text-align: center;
+        padding-top: 85px;
+    }
+    h2{
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+    }
+    .bg{
+        background-image: url(images/mountain.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 100%;
+    }
+.bg:hover .desc{
+    display: inline-block;
+    
+    }
+ .bg:hover .title{
+    display: none;
+    padding-top: 0;
+    color: #fff;
+    
+ }    
+.desc{
+    display: none;
+}
+    
+    .desc{
+        color: #ffffff; 
+        background:rgb(185, 185, 214);
+        opacity: 0.6;
+        fill-opacity: 0.6;
+
+    }
+    .title2{
+        padding: 10px;
+    }
+    p{
+        font-family: 'Fasthand', cursive;
+        font-size: 1em;
+    }
