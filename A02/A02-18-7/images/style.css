@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #7e7f83;
+    background-image: linear-gradient(to right, rgb(187, 188, 190), rgb(45, 42, 54));
+       }
+.box{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 430px;
+    background: url(images/mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fff;
+}
+.layer{
+    font-size: 0;
+    height: 100%;
+}
+.layer h2{
+    margin-top: 100px;
+    color: aqua;
+    text-align: center;
+    font-size: 22px;
+    font-family: Courgette;
+
+}
+.layer:hover{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    background-color: rgba(31, 129, 241, 0.5);
+    
+      
+}
+.layer:hover p{
+    padding: 1px 15px;
+    font-family:Dosis;
+}
+.layer:hover h2{
+    margin-top: 1px;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    color: #fff;
+    font-family: Courgette;
+}
+.layer:hover .buttom{
+    margin: 0 auto;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    border: 2px solid #000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.layer:hover .buttom:hover{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
