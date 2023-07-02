@@ -1,0 +1,155 @@
+@font-face {
+    font-family: B\ Nazanin;
+    src: url(fonts/B\ Nazanin.ttf);
+}
+body{
+      margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,rgb(151, 157, 170),rgb(132, 132, 212));
+}
+.container{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #3c82bb;
+    padding: 7px;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 5px 2px #cb85d4;
+  
+}
+
+table{
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-family: B Nazanin;
+    background-color: rgb(153, 213, 228);
+    border-radius: 10px;
+    border-spacing: 0;
+ 
+ }
+ .info{
+    width: 32%;
+ }
+
+.person-pic{
+    background-image: url(image/pic.jpg);
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+ }
+
+.name{
+    font-weight: bold;
+    font-family: B Nazanin;
+    text-align: center;
+   
+ }
+ h2{
+    margin: 0;
+ }
+
+.col{
+    padding-right: 30px;
+}
+.divide{
+    border-color: bisque;
+    border-style: dotted;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.tbl2{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.column-right{
+    background-color: rgb(148, 148, 197);
+    text-align: right;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+}
+
+.column-left{
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    padding-right: 10px;
+
+    
+ }
+.column-left i{
+    font-size: 20px;
+    
+}
+.tbl3{
+    padding-left: 10px;
+    border: none;
+}
+.skills{
+    background-color: #ffffff;
+    padding-right: 30px;
+    width: 50%;
+    color: #0f0733;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+  
+}
+.savabegh{
+    text-shadow: 2px 2px 5px #e94545;
+   
+}
+
+.fa-tasks, .fa-graduation-cap, .fa-cogs{
+    padding-left: 7px;
+    padding-right: 10px;
+}
+.line{
+    margin-left: 80px;
+}
+
+.icon-star{
+text-align: right;
+background-color: #fff;
+
+
+}
+.icon{
+    padding-right: 20px;
+    font-size:12px;
+    background-color: #fff;
+}
+.certi{
+    padding-top: 20px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px #c3c1d4;
+}
+.cal-info{
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 2px 5px #c3c1d4;
+}
+.certi-list{
+    font-weight: bold;
+    color: antiquewhite;
+}
+.fname{
+    text-shadow: 2px 2px 5px #815979;
+}
+.skill-desc{
+    background-color: #ffffff;
+   padding: 0;
+    margin: 0;
+}
+.tbl3{
+    margin-left: 10px;
+}
+  
