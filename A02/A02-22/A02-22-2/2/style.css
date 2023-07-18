@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background:linear-gradient(to bottom,rgb(65, 197, 214), rgb(175, 111, 111));
+}
+.container{
+height: 100%;
+padding-top: 50px;
+}
+.content{
+    height: 100%; 
+    width: 85%;
+    margin: 0 auto;
+  }
+  .sea{
+width: 100%;
+height: 300px;
+border: 2px solid #fff;
+  }
+  .box1{
+    width: 80%;
+    height: 100%;
+    background-image:url(image/sea.jpg);
+    background-clip:padding-box;
+    background-position:inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.img1{
+
+    width: 80%;
+     height: 20%;
+     background-color:transparent;
+     text-align: left;
+}
+.img2{
+    display: block;
+    background: #fff;
+    width: 50%;
+    height: 50px;
+  
+}
