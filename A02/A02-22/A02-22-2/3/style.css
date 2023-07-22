@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom,rgb(131, 218, 230), rgb(42, 100, 185));
+}
+.navbar{
+max-width: 85%;
+height: 40px;
+background-color: aliceblue;
+margin: 0 auto;
+}
+.menu{
+    padding-top: 10px;
+}
+.menu li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 50px;
+    
+}
+.content{
+    margin: 0 auto;
+    border: 1px solid #fff;
+    max-width: 85%;
+
+}
+.head{
+    color: #fff;
+    text-align: center;
+    }
+p{
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+}
