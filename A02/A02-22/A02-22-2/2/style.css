@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background:linear-gradient(to bottom,rgb(65, 197, 214), rgb(175, 111, 111));
+}
+.container{
+  height: 100%;
+  margin-top:50px ;
+}
+.img1 {
+  background-image: url(image/sea.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+  height: 100px;
+  display: inline-block;
+}
+
+.img2 {
+  background-image: url(image/sea.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  width: 50%;
+  height: 50px;
+  margin-left: 250px;
+  display: inline-block;
+}
+
+.img3 {
+  background-image: url(image/sea.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  width: 70%;
+  height: 100px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.sea {
+  margin: 0 auto;
+  border: 1px solid #fff;
+  width: 80%;
+  height: 260px;
+
+}
+.boat {
+  margin: 0 auto;
+  border: 1px solid #fff;
+  width: 80%;
+  height: 253px;
+
+}
+.col1{
+  width: 25%;
+  height: 100px;
+  background-image: url(image/boat.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+.col2{
+  width: 45%;
+  margin-top: 10px;
+  height: 240px;
+  background-image: url(image/boat.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+.col3{
+  width: 28%;
+  height: 200px;
+  background-image: url(image/boat.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+.dog-cat{
+  width: 80%;
+  margin: 0 auto;
+  height: 220px;
+  border: 1px solid #fff;
+  }
+  .change{
+    width:200px ;
+    height: 200px;
+    background-image: url(image/cat.jpg);
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+     }
+     .pic{
+      margin-top: 10px;
+     }
+.change:hover{
+  background-image: url(image/dog.jpg);
+}
