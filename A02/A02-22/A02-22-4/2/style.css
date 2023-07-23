@@ -1,0 +1,69 @@
+body{
+    height: 1000px;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-style: italic;
+  
+}
+.static {
+    position: static;
+    left: 10px;
+    bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(245, 245, 140);
+    padding: 5px;
+    border: 1px solid #3c72a8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row {
+    font-size: 22px;
+    color: blue;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+.relative {
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(172, 221, 108);
+    padding: 5px;
+    border: 1px solid #06182b;
+    font-family: cursive;
+    color: #091e63;
+}
+.absolute {
+    position: absolute;
+    left: 25px;
+    bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(108, 214, 221);
+    padding: 5px;
+    border: 1px solid #06182b;
+    font-family: monospace;
+}
+.parent{
+    position: relative;
+    height: 150px;
+    padding: 10px;
+    background-color: #519bc9;
+}
+.fix{
+    position: fixed;
+    left: 25px;
+    bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(112, 67, 36);
+    padding: 5px;
+    border: 1px solid #06182b;
+    font-family:sans-serif;
+    color: #e0f085;
+ 
+}

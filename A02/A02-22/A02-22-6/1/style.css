@@ -1,0 +1,68 @@
+body {
+    background:linear-gradient(to bottom,rgb(54, 47, 151),rgb(0, 0, 2));
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+.content{
+    max-width: 90%;
+}
+code{
+    color: blue;
+    text-decoration: underline;
+}
+  
+  .container {
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border: 1px solid grey;
+    margin: 30px 0 100px 100px;
+    background-color: white;
+    font-family: monospace;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .visible {
+    overflow: visible;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  
+  .hidden {
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+  }
+  
+  .scroll {
+    overflow: scroll;
+    position:absolute;
+    top: 50px;
+    left: 650px;
+  }
+  
+  .auto {
+    overflow: auto;
+    position:absolute;
+    top: 50px;
+    left: 950px;
+  }
+  
+  .img {
+    background-image: url(images/css.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+  }
+  
