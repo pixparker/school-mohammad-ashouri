@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(to bottom,rgb(211, 234, 238), rgb(61, 46, 45));
+}
+.cat{
+    background-color: antiquewhite;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    max-width: 90%;
+    height: 130px;
+    border: 2px solid #000;
+}
+
+.cat-img{
+    margin: 5px;
+    width: 110px;
+    height: 110px;
+    background-image: url(images/cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+.dog{
+    background-color: rgb(44, 145, 185);
+    position: relative;
+    top: 150px;
+    left: 100px;
+    max-width: 90%;
+    height: 130px;
+    border: 2px solid #000;
+}
+.dog-img{
+    margin: 5px;
+    width: 110px;
+    height: 110px;
+    background-image: url(images/dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+
