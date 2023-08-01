@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Cera Stencil Pro;
+    src: url(fonts/FontsFree-Net-Cera-Stencil1.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+    font-family: Archer Pro,sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: linear-gradient(to right,#EFBFE6,#B497E3);
+    letter-spacing: .5px;
+}
+.navbar{
+    background-color: #8CD0E3;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.logo{
+    width: 130px;
+    height: 50px;
+    background-image: url(images/Bliss_Logo.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+}
+.icon-box{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    font-size: 30px;
+    float: right;
+}
+.icon{
+    padding-right: 25px;
+    color: #fff;
+   }
+.nav{
+    position: relative;
+    top: 50px;
+    padding-bottom: 10px;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.banner{
+    max-width: 100%;
+    height: 600px;
+    background-image: url(images/Homepage_Banner.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    padding: 50px;
+}
+.container h2{
+    font-family: Cera Stencil Pro;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 38px;
+    color: #000;
+  }
+  h2{
+    font-family: Cera Stencil Pro;
+  }
+  .product{
+    width: 95%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    left: 5%;
+    margin-bottom: 30px;
+  }
+  .drench{
+    width: 22%;
+    height: 90%;
+    float: left;
+  }
+  .drench-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Drench_Quench.webp);
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  .bright{
+    width: 22%;
+    height: 90%;
+    float: left;
+    margin-left: 30px;
+  }
+  .bright-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Bright_Idea.webp);
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  .youth{
+    width: 22%;
+    height: 90%;
+    float: left;
+    margin-left: 30px;
+  }
+  .youth-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/youth-got.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .clear{
+    width: 22%;
+    height: 90%;
+    float: left;
+    margin-left: 30px;
+  }
+  .clear-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Clear_Genius.webp);
+    background-position: center;
+    background-size: cover;
+  }
