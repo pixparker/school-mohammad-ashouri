@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #ccc;
+    text-align: left;
+    
+}
+.menu{
+    display: inline-block;list-style: none;
+    color: darkblue;
+    padding-left: 15px;
+
+}
+.menu li{
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.body{
+    background-color: darkslategray;
+    color: #fff;
+    margin: 2px;
+}
+.h1{
+    padding-left: 20px;
+}
+.parag{
+    padding-left: 20px;
+}
