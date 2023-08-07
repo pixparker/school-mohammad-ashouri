@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background: #cccc;
+    text-align: center;
+}
+.lion{
+    margin: 0 auto;
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(images/lion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #000000cc;
+    text-align: center;
+    color: #fff;
+}
+.dog{
+    margin: 0 auto;
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(images/dog.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.content{
+    position: relative;
+    top: 40%;
+}
+h2{
+    padding: 15px;
+}
+
