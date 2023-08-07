@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom,#080606,#7e6f6f);
+}
+.img{
+    position: relative;
+    top:25%;
+    margin: 0 auto;
+    width: 40%;
+    height: 400px;
+    background-image: url(images/cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.trans{
+
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: rgba(214, 196, 161, 0.5);
+}
+p{
+    color: #080606;
+}
