@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin-left:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img{
+    width: 150px;
+    height: 100px;
+    background-image: url(images/cat.jpg);
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+
+}
