@@ -1,0 +1,802 @@
+@font-face {
+    font-family: Cera Stencil Pro;
+    src: url(fonts/FontsFree-Net-Cera-Stencil1.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+  font-family: 'Sanchez', serif;
+}
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    line-height: 45px;
+    color: #8e9ce9;
+    background: linear-gradient(to right,#2D394B,#2D394B);
+    letter-spacing: .5px;
+}
+.header p{
+  padding-left: 50px;
+  line-height: 60px;
+  float: left;
+}
+.btn-add-to-card{
+  width: 150px;
+  height: 40px;
+  background-color: #29A22E;
+  float: right;
+  position: relative;
+  top: 17%;
+  right: 100px;
+  color: #fff;
+  border-radius: 5px;
+
+}
+.btn-add-to-card i{
+  padding: 10px;
+  font-size: 20px;
+}
+.btn-add-to-card:hover{
+  background: #fff;
+  color: #06a0cf;
+  cursor: pointer;
+}
+.nav{
+  height: 70px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.navbar{
+    background-color: #fff;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+}
+.logo{
+  width: 170px;
+  height: 60px;
+  background-image: url(images/beauty-logo.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -50px;
+  left: 60px;
+  z-index: 1;
+}
+.icon-box{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    font-size: 30px;
+    float: right;
+    top: 5px;
+}
+.icon{
+    padding-right: 25px;
+    color: #dfd1d1;
+   }
+   .icon:hover{
+    color: #fff;
+   }
+   .search-icon{
+    position: absolute;
+    float: right;
+    color: #dfd1d1;
+    right: 15px;
+    font-size: 30px;
+    top: 70px;
+    z-index: 1;
+   }
+
+.menu{
+    
+  background-color: #fff;
+  height: 50px;
+  position: absolute;
+  width: 60%;
+  margin: 0 auto;
+  left: 30%;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.menu li a{
+  text-decoration: none;
+  color: #066ba5;
+}
+.menu li:hover a{
+  text-decoration: double;
+  text-shadow: 1px 1px 1px #b6d1e0;
+}
+.search{
+  float: right;
+  position: absolute;
+  right: 50px;
+  height: 30px;
+  width: 200px;
+  border-radius: 4px;
+  border-color: #e8eef0;
+  top: 75px;
+  z-index: 1;
+
+}
+.banner{
+    max-width: 100%;
+    height: 500px;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-box{
+  position: relative;
+  width: 35%;
+  height: 60%;
+  background-color: rgba(147, 248, 248, 0.3);
+  top: 70px;
+  float: right;
+  right: 200px;
+  text-align: center;
+
+}
+.banner-box h1{
+  padding: 20px;
+  color: rgb(69, 233, 233);
+  font-size: 48px;
+}
+.banner-box p{
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.shop-btn-banner{
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 1px 1px 2px #bbeef5;
+  margin: 50px;
+  color: rgb(69, 233, 233);
+  font-weight: bold;
+
+}
+.shop-btn-banner a{
+  text-decoration: none;
+  color: #40eee5;
+}
+.shop-btn-banner:hover{
+background-color: #fff;
+}
+.shop-btn-banner:hover a{
+  color: #066ba5;
+}
+.container{
+    padding: 50px;
+}
+.container h2{
+    font-family: Cera Stencil Pro;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 38px;
+    color: #2fc3d6;
+  }
+  h2{
+    font-family: Cera Stencil Pro;
+  }
+  .product{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    left: 5%;
+    margin-bottom: 100px;
+  }
+  .product-txt{
+    width: 35%;
+    font-style: italic;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-left: 35px;
+   
+  }
+  .product-txt p{
+    color: #1f7783;
+  }
+.product-title{
+  padding-top: 40px;
+  font-size: 38px;
+  color: #3ad3e7;
+}
+  .makeup{
+    width: 45%;
+    height: 52%;
+    float: left;
+    box-shadow: 1px 1px 1px 2px #c4f7fd;  
+  }
+  .makeup:hover{
+    background-color: #6ddeec;
+  
+  }
+  .makeup:hover h3{
+    color: #fff;
+  }
+  .makeup:hover p{
+    color: #fff;
+  }
+  .perfume:hover{
+    background-color: #6ddeec;
+  
+  }
+  .perfume:hover h3{
+    color: #fff;
+  }
+  .perfume:hover p{
+    color: #fff;
+  }
+  .must-have:hover{
+    background-color: #6ddeec;
+  
+  }
+  .must-have:hover h3{
+    color: #fff;
+  }
+  .must-have:hover p{
+    color: #fff;
+  }
+  .age-defy:hover{
+    background-color: #6ddeec;
+  
+  }
+  .age-defy:hover h3{
+    color: #fff;
+  }
+  .age-defy:hover p{
+    color: #fff;
+  }
+.makeup-img{
+  width: 50%;
+  height: 300px;
+  background-image: url(images/makeup_prev_ui.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  overflow: auto;
+  position: relative;
+  bottom: 40px;
+}
+.product-box-txt{
+  position: relative;
+  color: #2c92a0;
+  width: 45%;
+  float: left;
+  top: 35px;
+  left: 15px;
+
+}
+
+  .perfume{
+    position: relative;
+    left: 50px;
+    width: 45%;
+    height: 52%;
+    float: left;
+    box-shadow: 1px 1px 1px 2px #c4f7fd;
+  }
+
+  .perfume-img{
+    width: 55%;
+    height: 300px;
+    background-image: url(images/perfume.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    overflow: auto;
+    position: relative;
+    bottom: 40px;
+
+  }
+
+  .must-have{
+    position: relative;
+    top: 50px;
+    width: 45%;
+    height: 52%;
+    float: left;
+    box-shadow: 1px 1px 1px 2px #c4f7fd;
+  }
+  .must-have-img{
+    width: 50%;
+    height: 300px;
+    background-image: url(images/must-have.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    overflow: auto;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .age-defy{
+    top: 50px;
+    position: relative;
+    left: 50px;
+    width: 45%;
+    height: 52%;
+    float: left;
+    box-shadow: 1px 1px 1px 2px #c4f7fd;
+  }
+  .age-defy-img{
+    width: 55%;
+    height: 300px;
+    background-image: url(images/age-defy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    overflow: auto;
+    position: relative;
+    bottom: 40px;
+  }
+.shop-section{
+  width: 100%;
+  height: 600px;
+  }
+  .shop-section-left{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/bliss-bright-background.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+
+  }
+  .shop-txt{
+    width: 75%;
+    height: 60%;
+    position: relative;
+    top:25%;
+    left:10%;
+    text-align: center;
+ background-color: rgba(236, 252, 220, 0.8);
+  }
+
+  .shop-txt h1{
+    padding-top: 100px;
+  }
+
+  .shop-txt p{
+    font-family: Archer Pro,sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .shop-btn{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    background-color: #FA9000;
+    margin: 0 auto;
+    top: 50px;
+    line-height: 60px;
+    font-size: 22px;
+  }
+  .shop-section-right img{
+    width: 50%;
+    height: 600px;
+    float: left;
+  }
+  .vitamin-c{
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .vitamin-c-img{
+    width: 40%;
+    height: 80%;
+    background-image: url(images/BLISS_Bright_Idea_Vitamin_C.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .vitamin-c h2{
+    padding: 10px;
+    color: #066ba5;
+  }
+
+
+.ready{
+  position: relative;
+  top: 50px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 70px;
+  color: #74a4ec;
+}
+.product-list{
+  width: 100%;
+  height: 450px;
+}
+.list-box{
+  width: 25%;
+  height: 100%;
+  float: left;
+
+}
+.daily-mineral-img{
+  height: 70%;
+  background-image: url(images/Bliss-BlockStarSoldier.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.serum-img{
+  height: 70%;
+  background-image: url(images/DQ_All_Day_Serum.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.naked-body-img{
+  height: 70%;
+  background-image: url(images/BLISS_Naked_Body.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.jelly-glow-img{
+   height: 70%;
+  background-image: url(images/jelly_glow_peel.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.list-caption{
+  width: 75%;
+  text-align: center;
+  padding: 30px;
+  line-height: 25px;
+  color: #18889c;
+}
+.shop-spring-btn{
+  width: 250px;
+  height: 40px;
+  background-color: #08b3e2;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: 1px solid  #08b3e2;
+ }
+ .shop-spring-btn:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #066ba5;
+ 
+ }
+ .list-caption:hover h3{
+cursor: pointer;
+
+ }
+ .social{
+  text-align: center;
+  margin: 0 auto;
+  line-height: 25px;
+  color: #2fd6f3;
+ }
+ .social p{
+  padding-top: 15px;
+ }
+.shopping{
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+.shopping-box{
+  width: 23%;
+  float: left;
+  height: 380px;
+  text-align: center;
+  border: 1px solid #2fd6f3;
+  margin-left: 20px;
+}
+.shopping-img-shampoo{
+  width: 100%;
+  height: 60%;
+  background-image: url(images/shampoo.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+
+}
+.shopping-img-baby{
+  width: 100%;
+  height: 60%;
+  background-image: url(images/baby-shampoo.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+
+}
+.shopping-img-vitaminc{
+  width: 100%;
+  height: 60%;
+  background-image: url(images/vitaminC.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+
+}
+.shopping-img-cocon{
+  width: 100%;
+  height: 60%;
+  background-image: url(images/coconoil.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+
+}
+
+
+.shopping-price{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background:linear-gradient(to top,#06a0a5,#84f0f8);
+  color: #fff;
+}
+.shopping-txt{
+  font-size: 13px;
+  padding: 10px;
+
+}
+.shopping-box-icon{
+  width: 50%;
+  position: relative;
+  left: 35%;
+  height: 40px;
+
+}
+.shopping-icon{
+  width: 35px;
+  height: 25px;
+  border: 1px solid #09c6ff;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  color: #3ff1f1;
+}
+.shopping-icon:hover{
+  background-color: #09c6ff;
+  color: #fff;
+  cursor: pointer;
+}
+.shopping-icon:active{
+  background-color: #066ba5;
+  color: #fff;
+}
+.description{
+  width: 100%;
+  height: 400px;
+  background-color: #58e4e4;
+}
+.desc-left{
+  width: 50%;
+  position: relative;
+  left: 40px;
+  top: 30px;
+  float: left;
+}
+.desc-icon{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #0bb699;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+  line-height: 150px;
+  float: left;
+  margin: 10px;
+}
+.desc-left:hover .desc-icon{
+  background-color: #fff;
+  color:#0bb699;
+  cursor: pointer;
+}
+.desc-right:hover .desc-icon{
+  background-color: #fff;
+  color:#0bb699;
+  cursor: pointer;
+}
+.look{
+  width: 100%;
+  height: 500px;
+  background-image: url(images/image1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+.look-txt{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+.look-txt p{
+  text-align: justify;
+  padding-top: 20px;
+  line-height: 30px;
+}
+.look-btn{
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background-color: #09c6ff;
+  color: #fff;
+  top: 35%;
+  left: 45%;
+  line-height: 60px;
+  border: 1px solid #09c6ff;
+}
+.look-btn:hover{
+  background-color: #fff;
+  color:#018fbb ;
+  cursor: pointer;
+}
+.desc-txt{
+  width: 85%;
+  position: relative;
+  left: 15px;
+  top: 25px;
+  color: #fff;
+
+}
+.desc-right{
+  width: 50%;
+  position: relative;
+  left: 60px;
+  top: 30px;
+  float: right;
+}
+
+ .free-shopping{
+  margin-top: 1px;
+  width: 100%;
+  height: 50px;
+  background:linear-gradient(to right,#a4d3df,#09c6ff);
+ }
+.free-txt-left{
+  width: 50%;
+  height: 40px;
+  margin-top: 5px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+}
+.free-txt-right{
+  width: 49%;
+  line-height: 50px;
+  float: left;
+  text-align: center;
+  color: #ffffff;
+}
+footer{
+  width: 100%;
+  height: 470px;
+  background-color: #4eb5d1;
+  color: #fff;
+}
+.footer-content{
+  width: 95%;
+  margin-left: 50px;
+  padding-top: 80px;
+}
+.footer-menu{
+  width: 20%;
+  float: left;
+  line-height: 30px;
+}
+.stay-in{
+  float: left;
+  width: 30%;
+  height: 80%;
+  line-height: 40x;
+}
+.stay-in h2{
+  padding-bottom: 15px;
+}
+.stay-foot{
+font-size: 12px;
+}
+.input-txt{
+  border: 1px solid;
+  width: 300px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.input-btn{
+  background-color: #fff;
+  width: 100px;
+  height: 41px;
+  line-height: 40px;
+  border: 1px solid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.input-btn:hover{
+  background-color: #018fbb;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-foot{
+  padding-top: 15px;
+}
+.nav-foot ul{
+  list-style: none;
+}
+.nav-foot ul li a{
+  text-decoration: none;
+  color: #fdfdfd;
+  font-size: 14px;
+}
+.foot-right{
+  position: relative;
+  width: 8%;
+  height: 100%;
+  background-color: #94e4f8;
+  bottom: 80px;
+  float: right;
+  text-align: center;
+  color: #2D394B;
+}
+.foot-right h3{
+  padding-top: 15px;
+}
+.end{
+  text-align: center;
+  font-style: italic;
+  color: #08b3e2;
+  font-size: 14px;
+  padding-top: 30px;
+}
