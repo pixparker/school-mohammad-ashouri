@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 130vh;
+    background:linear-gradient(to bottom, rgb(81, 147, 201),rgb(173, 106, 236));
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.login{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    border: 1px solid #6c4a80;
+    backdrop-filter: blur(10px);
+    top:12%;
+    left:38%;
+    background-color: rgb(94, 36, 201);
+    border-radius: 7px;
+    box-shadow: 1px 2px 20px 2px #9e37da;
+    
+}
+h1{
+    text-align: center;
+    color: #fff;
+   
+}
+
+.label{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.inputbox input{
+
+    margin: 10px;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 5px;
+    width: 80%;
+    background: #fff;
+    border: 1px solid #727283;
+    outline: none;
+    box-shadow: none;
+    text-align: left;
+
+
+}
+.form{
+    height: max-content;
+}
+#language{
+    height: 40px;
+    width: 87%;
+    padding-left: 20px;
+    border: 1px solid #727283;
+    box-shadow: none;
+    text-align: left;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.option{
+    padding-left: 20px;
+    margin-top: 5px;
+    color: #fff;
+
+}
+.btn{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn input{
+  
+    width: 40%;
+    height: 40px;
+    background:#1d9946;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    color: #ffffff;
+  
+}
+.check{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #fff;
+  
+}
+.check div{
+    margin-top: 5px;
+}
+.suggest{
+    height: 40px;
+    width: 87%;
+    padding-left: 20px;
+    border: 1px solid #727283;
+    box-shadow: none;
+    text-align: left;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+  .btn input:hover{
+    cursor: pointer;
+  }
+
+  .foot{
+    text-align: center;
+    font-size: 14px;
+  }
