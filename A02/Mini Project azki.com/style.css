@@ -1,0 +1,717 @@
+@font-face {
+    font-family: yekan;
+    src: url(fonts/yekan.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: yekan;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #C3C3CE;
+    border-radius: 10px;
+  }
+
+/*---------- Menu Section-------------*/
+header{
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 1px 1px #ccc;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.logo{
+    background-image: url(images/azki-logo.svg);
+    background-position: center;
+    width: 92px;
+    height: 20px;
+    background-size: cover;
+    float: right;
+    margin: 35px;
+}
+
+nav{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 20px;
+    line-height: 60px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li i{
+    padding-right: 5px;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    width: 80%;
+    background-image: linear-gradient(to right,#E7F6FF,#fff);
+    border-radius: 10px;
+    top: 83px;
+}
+.submenu2{
+    display: none;
+    position: absolute;
+    width: 15%;
+    background-image: linear-gradient(to right,#E7F6FF,#fff);
+    border-radius: 10px;
+    top: 83px;
+}
+.nav-khesarat:hover .submenu2{
+    display: block;
+}
+.fa-angle-down{
+    position: relative;
+    top: 3px;
+}
+.submenu ul li{
+    display: block;
+    padding: 5px;
+    line-height: 35px;
+}
+.submenu2 ul li{
+    display: block;
+    padding: 5px;
+    line-height: 35px;
+}
+.col{
+    float: right;
+    width: 21%;
+    padding-top: 20px;
+    padding-right: 25px;
+
+}
+.col2{
+    float: right;
+    padding-top: 20px;
+    padding-right: 25px;
+
+}
+.col i{
+    float: right;
+    color: rgb(51, 51, 170);
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+}
+.col h3{
+    color:rgb(51, 51, 170) ;
+}
+.nav-bime:hover .submenu{
+display: block;
+}
+nav ul li:hover a{
+    color: rgb(10, 10, 177);
+}
+.col2 ul li:hover a{
+    color: rgb(255, 30, 0);
+}
+.col ul li:hover a{
+    color: rgb(255, 30, 0);
+}
+.login:hover{
+    background-color: #0253D5;
+  }
+.login:hover a{
+    color: #fff;
+}
+.login:hover span{
+    color: #fff;
+}
+.search{
+    position: absolute;
+    right: 60%;
+    width: 320px;
+    top: 30px;
+    color: #ccc;
+    font-size: 16px;
+
+
+}
+.search input{
+    width: 300px;
+    float: left;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+.search i{
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+}
+.login{
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(103, 103, 146);
+    border-radius: 15px;
+    float: left;
+    margin: 35px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    left: 5%; 
+}
+
+.login a{
+    text-decoration: none;
+   font-weight: 500;
+}
+
+.login span{
+    padding: 3px;
+    font-weight: bold;
+}
+
+/*---------- Body Section-------------*/
+section{
+    height: 800px;
+    width: 100%;
+    background-image: url(images/homepage_hero_2x.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.title_{
+    padding-top: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #7a6b6b;
+}
+.title_2{
+    font-size: 28px;
+    color: #af8888;
+    padding-top: 10px;
+  
+}
+.bime{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+
+}
+.bime .img:hover{
+     cursor: pointer;
+}
+.t1:hover{
+    color: rgb(51, 51, 170);
+    cursor: pointer;
+}
+
+.car{
+    width: 46%;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+}
+.car:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.car-body:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.motor:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.house:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.takmili:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.life:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.accident:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.travel:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.liability:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.mobile:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.buisines:hover{
+    background-image:linear-gradient(to right,#E7F6FF,#fff) ;
+}
+.car .cash{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(146, 146, 230);
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    right: 75%;
+    bottom: 8px;
+}
+.car .img1{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/third-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    float: right;
+    right: 10px;
+}
+.txt1{
+    position: relative;
+    right: 30px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.txt1 .t1{
+    font-weight: bold;
+}
+.txt1 .t2{
+    color: #a19999;
+    font-size: 13px;
+}
+.order{
+    border-radius: 5px;
+    background-color: rgb(213, 236, 213);
+    font-size: 13px;
+    text-align: center;
+    width: 80%;
+    padding: 5px;
+    margin-right:20px;
+}
+.car-body, .motor{
+    width: 22%;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+
+}
+.car-body .cash{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(146, 146, 230);
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    right: 60%;
+    bottom: 8px;
+}
+.car-body .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/body-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.motor .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/motorcycle-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.motor .cash{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(146, 146, 230);
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    right: 60%;
+    bottom: 8px;
+}
+.house, .takmili, .life, .accident, .travel, .liability, .mobile, .buisines{
+    width: 22%;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.house .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/house-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.life .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/life-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.takmili .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/health-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.accident .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/accident-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.travel .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/travel-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.liability .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/liability-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mobile .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/mobile-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buisines .img{
+    width: 60px;
+    height: 60px;
+    background-image: url(images/business-on.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.img{
+    position: relative;
+    float: right;
+    right: 40%;
+
+}
+.txt{
+    position: relative;
+    top: 60px;
+    margin-bottom: 10px;
+    left: 30px;
+}
+.txt .t1{
+    font-weight: bold;
+}
+.txt .t2{
+    color: #a19999;
+    font-size: 13px;
+}
+/*------------ after section part-------*/
+.online{
+    width: 70%;
+    margin: 0 auto;
+}
+.online h1{
+    text-align: center;
+}
+.online h3{
+    text-align: center;
+}
+.box{
+  
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid #e7e0e0;
+    margin: 0 auto;
+}
+.box h4{
+    padding-top: 30px;
+    text-align: center;
+}
+.box p{
+    text-align: justify;
+    padding: 45px;
+    font-size: 14px;
+}
+.box-img{
+    background-image: url(images/online-insurance.svg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    padding-top: 30px;
+}
+.box-img2{
+    background-image: url(images/easy-buying.svg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    padding-top: 30px;
+}
+.box-img3{
+    background-image: url(images/wrong-info.svg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    padding-top: 30px;
+}
+
+.motamed{
+    width: 70%;
+    height: 310px;
+    background-color: #000;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+.motamed-img{
+    width: 450px;
+    height: 440px;
+    background-image: url(images/motamed.svg);
+    position: relative;
+    bottom: 82px;
+    background-repeat: no-repeat;
+    
+}
+.motamed-txt{
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    color: #fff;
+    text-align: center;
+}
+.motamed-txt table{
+    border-spacing: 0;
+    margin-top: 10px;
+}
+.motamed-txt table tr .th{
+    color: rgb(199, 199, 233);
+    font-size: 32px;
+    border-left: 2px solid #73ddf0;;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.motamed-txt table tr th{
+    color: rgb(199, 199, 233);
+    font-size: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.motamed-txt table tr .td{
+border-left: 2px solid #73ddf0;
+height: 35px;
+padding-left: 30px;
+padding-right: 30px;
+}
+.motamed-txt table tr td{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .bime-takmili{
+        width: 70%;
+        height: 450px;
+        background-color: #1f1969;
+        border-radius: 20px;
+        margin: 0 auto;
+        position: relative;
+        top: 150px;
+        color: #fff;
+    }
+    .takmili-img{
+        background-image: url(images/building.webp);
+        background-position: center;
+        width: 255px;
+        height: 300px;
+        border-radius: 10px;
+        position: relative;
+        float: right;
+        top: 45px;
+        margin-right: 35px;
+    }
+.takmili-txt{
+    float: left;
+    position: absolute;
+    width: 55%;
+    left: 60px;
+    text-align: justify;
+    top: 20px;
+}
+.takmili-txt ul{
+    margin-right: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.btn{
+    position: absolute;
+    width: 130px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    bottom: 95px;
+    left: 90px;
+}
+.btn:hover{
+    background-color: #f0e2e2;
+    color: #1f1969;
+    cursor: pointer;
+}
+.company{
+    width: 60%;
+    height: 130px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    box-shadow: 1px 2px 2px #ccc;
+    text-align: center;
+    color: #a19999;
+    }
+.company img{
+    display: inline-block;
+    margin-right: 50px;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+}
+.company img:hover{
+    cursor: pointer;
+ }
+
+/*------------ after section part-------*/
+
+footer{
+    border-top: 1px solid #ccc;
+    padding-top: 35px;
+    background-image:linear-gradient(to right,#FDF6E3,#E2F7F9) ;
+    height: 400px;
+}
+
+.description{
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 14px;
+    position: relative;
+    top: 100px;
+}
+.description img{
+    margin-bottom: 20px;
+}
+.description i{
+    padding-left: 10px;
+}
+.bimeha{
+    width: 18%;
+    float: right;
+    margin-right: 80px;
+}
+.bimeha ul li{
+    list-style: none;
+}
+.bimeha ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.bimeha ul h3{
+    color: blue;
+}
+.bimeha li:hover a{
+    color: #0253D5;
+}
+.bimeha h3{
+    text-align: right;
+}
+.issue{
+    width: 20%;
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    top: 40%;
+}
+.issue img{
+    display: inline-block;
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+}
+.foot{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to right,#0253D5,#67A2FB);
+    color: #fff;
+    line-height: 60px;
+}
+.foot p{
+    margin-right: 50px;
+}
