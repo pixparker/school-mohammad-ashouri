@@ -1,0 +1,61 @@
+body{
+    background-color: #cfcfcc;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+
+ 
+}
+.moon{
+    background-image: url(images/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 600px;
+    color: #fff;
+    text-align: justify;
+    font-size: 12px;
+    padding: 20px;
+    box-shadow: -5px 5px rgb(238, 93, 214),-10px 10px rgb(243, 141, 226), -15px 15px rgb(241, 167, 229);
+}
+.moon h2{
+    text-align: center;
+}
+.saturn{
+    background-image: url(images/saturn.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 600px;
+    color: #fff;
+    text-align: justify;
+    font-size: 14px;
+    padding: 20px;
+    box-shadow: 0 5px rgb(238, 93, 214), 0 10px rgb(243, 141, 226), 0 15px rgb(241, 167, 229);
+  
+}
+.saturn h2{
+    text-align: center;
+}
+.sky{
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 600px;
+    color: #fff;
+    text-align: justify;
+    font-size: 14px;
+    padding: 20px;
+    box-shadow: 5px 5px rgb(238, 93, 214),10px 10px rgb(243, 141, 226), 15px 15px rgb(241, 167, 229);
+
+ }
+ .sky h2{
+    text-align: center;
+ }
