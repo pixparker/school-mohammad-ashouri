@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+.container{
+    display: grid;
+    grid-template-areas: 'saturn saturn saturn saturn-img sky-img' 'moon moon-txt moon-txt moon-txt sky-img';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
+    width: 90%;
+    padding-top: 2rem;
+    margin: 0 auto;  
+}
+p{
+    font-size: 14px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.saturn{
+    grid-area: saturn;
+    background-color: rgb(88, 78, 78);
+    color: #fff;
+    text-align: justify;
+    padding: 20px;
+}
+.saturn-img{
+    grid-area: saturn-img;
+    background-image: url(images/saturn.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sky-img{
+    grid-area: sky-img;
+    background-image: url(images/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.moon{
+    grid-area: moon;
+    background-image: url(images/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.moon-txt{
+    grid-area: moon-txt;
+    background-color: rgb(88, 78, 78);
+    color: #fff;
+    text-align: justify;
+    padding: 20px;
+}
