@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(149, 212, 149), rgb(154, 154, 233));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ p{
+    text-align: justify;
+ }
+ h2{
+    text-align: justify;
+ }
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+.head1{
+    grid-row: 1;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+.head2{
+    grid-row: 1;
+    background-color: rgb(90, 90, 250);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.head3{
+    grid-row: 1;
+    background-color: rgb(167, 204, 167);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.head4{
+    grid-row: 1;
+     background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head5{
+    grid-column: 1;
+    grid-row: 2/ span 2;
+    background-color: rgb(116, 109, 124);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    }
+.head6{
+    grid-row: 2;
+    grid-column: 2 / span 2;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.head7{
+    grid-row: 2 / span 2;
+    grid-column: 4;
+    background: rgb(116, 109, 124);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head8{
+    background-color: rgb(90, 90, 250);
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head9{
+    background-color: rgb(167, 204, 167);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(149, 212, 149), rgb(154, 154, 233));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 14px;
+}
+.container{
+    background-image: url(images/gojo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    display: flex;
+    width: 45%;
+    margin: 0 auto;
+    color: #fff;
+    flex-direction: column;
+  }
+.caption{
+    text-align: center;
+    background-color: rgb(34, 13, 82);
+    align-self: flex-start;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caption2{
+    text-align: center;
+    background-color: rgb(34, 13, 82);
+    align-self: flex-end;
+    align-items: center;
+    flex-basis: 120px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caption3{
+    text-align: center;
+    background-color: rgb(34, 13, 82);
+    align-self: flex-end;  
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caption4{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(34, 13, 82);
+    align-self: flex-end;
+    display: flex;
+    align-items: center;  
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img1{
+ align-self: center;
+ width: 100px;
+ height: 100px;
+}
+.img1 img{
+    width: 100px;
+    height: 100px;
+}
+.desc{
+    background-color: rgb(34,13,82);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.img2{
+    align-self: flex-start;
+    width: 100px;
+    height: 100px;
+   }
+   .img2 img{
+    width: 100px;
+    height: 100px;
+}
