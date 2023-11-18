@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background-color: rgb(58, 42, 42);
+  }
+  img{
+    width: 100%;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    color: #fff;
+  }
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    padding:5px;
+}
+.col {
+    flex: 25%;
+    max-width: 25%;
+    padding: 4px;
+  }
+  
+.col img {
+    margin-top: 5px;
+    vertical-align: middle;
+   }
+
+ 
+@media (max-width: 800px) {
+    .col {
+        flex: 50%;
+        max-width: 50%;
+    }
+  }
+  @media (max-width: 600px) {
+    .col {
+        flex: 100%;
+        max-width: 100%;
+    }
+  }
