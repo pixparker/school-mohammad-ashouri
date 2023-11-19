@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+  }
+  p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    font-size: 14px;
+}
+  /*-------------navbar---------------*/
+.navbar{
+    display: flex;
+    background-color:rgb(38, 117, 113)  ;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+/*-----------------section---------*/
+  .head{
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    text-align: center;
+  }
+  .head h2{
+    line-height: 200px;    
+    color: #fff;
+  }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*-------------------left section-----------*/
+  .left-section{
+    flex: 70%;
+    display: flex;
+    flex-direction:column ;
+    padding: 20px;
+    background-color: rgb(92, 86, 86);
+  }
+  .right-section{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:rgb(38, 117, 113) ;
+  }
+.left-section-img{
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    height: 200px;
+}
+/*-------------------right section-----------*/
+
+.right-section-img1{
+    background-image: url(images/4.jpg);
+    background-size: cover;
+    height: 160px;
+}
+.right-section-img2{
+    height: 50px;
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 10px;
+}
+
+/*when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:700px){
+.navbar, .container{
+    flex-direction: column;
+}
+}
+
+/*-------------------footer-----------*/
+footer{
+    height: 50px;
+    background-color: rgb(109, 161, 161);
+    text-align: center;
+    line-height: 50px;
+}
